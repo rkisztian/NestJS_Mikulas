@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mikulás</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple login form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <style>
+      html, body {
+      display: flex;
+      justify-content: center;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 15px;
+    
+      }
+      form {
+      border: 5px solid #f1f1f1;
+      }
+
+    </style>
+  </head>
+  <body>
+    
+    <form method="post">
+
+      <h2>Mikulás Csomag</h2>
+      <p>
+        <label>Korosztály:</label>
+        <input type="range" name="korOsztaly">
+      </p>
+
+      <p>
+        <label>Csomagolás:</label>
+        <select name="csomagolas">
+          <option value="Vászon Csomagolás">Vászon csomaolás</option>
+          <option value="Papír Csomagolás">Papír csomagolás</option>
+          <option value="Műanyag Csomagolás">Műanyag csomagolás</option>
+        </select>
+      </p>
+      <p>
+        <label>Ár:</label>
+        <input type="numbers" name="csomagAr">
+      </p>
+      <p>
+        <label>Tartalom:</label><br>
+        <input type="hidden" name="csomagTartalom">
+        <input type="checkbox" name="csomagTartalom">
+        <label >Kinder Tojás</label><br>
+        <input type="checkbox" name="csomagTartalom">
+        <label >Kit Kat</label><br>
+        <input type="checkbox" name="csomagTartalom">
+        <label >Kinder Bueno</label><br>
+        <input type="checkbox" name="csomagTartalom">
+        <label >Milka Mikulás</label><br>
+        <input type="checkbox" name="csomagTartalom">
+        <label >Milka csoki</label><br>
+        <input type="checkbox" name="csomagTartalom">
+        <label >Croppers</label><br>
+        <input type="checkbox" name="csomagTartalom">
+        <label >Snickers</label><br>
+        <input type="checkbox" name="csomagTartalom">
+        <label >Kinder Mikulás</label><br>
+        <input type="checkbox" name="csomagTartalom">
+        <label >White Snickers</label><br>
+        <input type="checkbox" name="csomagTartalom">
+        <label >Virgács</label><br>
+      </p>
+      <p>
+        <label>Személyes üzenet:</label>
+        <input type="textarea" name="szemelyesUzenet">
+      </p>
+      <p>
+        <input type="submit" value="Ok">
+      </p>
+
+    </form>
+
+  </body>
+</html>
